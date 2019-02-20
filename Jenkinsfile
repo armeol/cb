@@ -6,5 +6,11 @@ pipeline {
         echo 'Bees buzz!'
       }
     }
+    stage('LOL') {
+      steps {
+        echo 'LOL'
+        sleep 10
+      }
+    }
   }
 }
